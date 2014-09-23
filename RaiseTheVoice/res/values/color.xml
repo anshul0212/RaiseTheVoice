@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    
+    <color name="white_smoke">#F7F7F7</color>
+    <color name="white_smoke_dk">#f3f2f2</color>
+    <color name="white">#ffffff</color>
+     <color name="white_trans">#88ffffff</color>
+    <color name="black">#000000</color>
+    <color name="brown">#8B8989</color>
+    <color name="red">#f14242</color>
+    <color name="transparent">#00000000</color>
+    <color name="main_color_gray_lt">#e5e5e5</color>
+    <color name="main_color_orange">#ff5e3a</color>
+    <color name="main_color_gray_lt2">#d0e5e5</color> 
+    <color name="main_color_gray_dk">#333333</color>
+    <color name="main_color_gray">#dadada</color>
+    <color name="main_color_gray1">#8d8d8d</color>
+    <color name="blue_lt">#00b0f1</color>
+    <color name="green_dk">#00b00f</color>
+    <color name="blue_dk">#00b0b0</color>
+    <color name="gray_light">#a1a1a1</color>
+    <color name="theme_orange">#FF5E3A</color>
+    <color name="theme_orange_trans">#11FF5E3A</color>
+    <color name="orange_light">#FEADA4</color>
+    <color name="curofy_orange">#FF5E3A</color>
+    <color name="curofy_white">#EEEEEE</color>
+     <color name="text_gray">#555555</color>
+	<color name="metallic">#DDDDDD</color>
+    
+    <color name="light_blue_color">#3FB4EB</color>
+    <color name="light_green_color">#16EF24</color>
+	<color name="dark_green_color">#0A6F11</color>
+	<color name="midnight_blue_color">#2D5373</color> 
+    
+    
+</resources>

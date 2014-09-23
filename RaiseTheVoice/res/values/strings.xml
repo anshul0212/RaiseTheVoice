@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RaiseTheVoice</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="url_getpublicposts">http://vivekandroid.esy.es/rtv/news_all.php</string>
+    <string name="url_getacceptedposts">http://vivekandroid.esy.es/rtv/news_accpted.php</string>
+    <string name="url_getrejectedposts">http://vivekandroid.esy.es/rtv/news_rejected.php</string>
+    <string name="url_acceptreject">http://vivekandroid.esy.es/rtv/news_update.php</string>
+    <string name="url_getrecievedposts">http://vivekandroid.esy.es/rtv/news_pending.php</string>
+    <string name="title_activity_main_activitysd">MainActivitysd</string>
+
+</resources>

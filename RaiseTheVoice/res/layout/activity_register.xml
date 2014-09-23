@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+     >
+    
+    <LinearLayout 
+        android:id="@+id/register_ll_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip"
+        android:gravity="center"
+        android:layout_marginBottom="20dip"
+        >
+    <TextView 
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RaiseTheVoice"
+        android:textColor="#f20202"
+        android:gravity="center"
+        android:textSize="40dip"/>
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/register_ll_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="5dip"
+        android:layout_below="@+id/register_ll_heading"
+        >
+        
+    <TextView 
+        android:id="@+id/register_tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter your Name"/>
+    
+    <EditText 
+        android:id="@+id/register_edt_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/normal"
+        android:paddingLeft="20dip"/>
+    
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/register_ll_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/register_ll_name"
+        android:padding="5dip"
+        >
+        
+    <TextView 
+        android:id="@+id/register_tv_password"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter Your Password :"/>
+    
+    <EditText 
+        android:id="@+id/register_edt_password"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="true"
+        android:background="@drawable/normal"
+        android:paddingLeft="20dip"/>
+    
+    
+    
+    </LinearLayout>
+    
+    <LinearLayout 
+        android:id="@+id/register_ll_IMEI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/register_ll_password"
+        android:padding="5dip"
+        >
+        
+    <TextView 
+        android:id="@+id/register_tv_IMEI"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Your IMEI Number :-"/>
+    
+    <EditText 
+        android:id="@+id/register_edt_IMEI"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:background="@drawable/normal"
+        android:paddingLeft="20dip"/>
+    
+    
+    
+    </LinearLayout>
+    
+        <LinearLayout 
+        android:id="@+id/register_ll_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_below="@+id/register_ll_IMEI"
+        android:padding="5dip"
+        android:paddingTop="20dip"
+        >
+        
+            <Button 
+                android:id="@+id/register_button_submit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:text="SUBMIT"
+                android:editable="false"
+                android:onClick="registerButtonClicked"
+                android:background="@drawable/normal"/>
+    
+    
+    </LinearLayout>
+
+</RelativeLayout>
